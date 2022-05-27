@@ -1,0 +1,29 @@
+body {
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.headLinks {
+    list-style-type: none;
+    display: flex;
+}
+
+.headLink {
+    text-decoration: none;
+    color: #e6e7eb;
+    font-size: 18px;
+    margin: 10px;
+}
