@@ -7,6 +7,8 @@ body {
     align-items: center;
 }
 
+/* Header part */
+
 header {
     background-color: #1F2937;
     width: 100%;
@@ -37,4 +39,61 @@ header {
     color: #e6e7eb;
     font-size: 18px;
     margin: 0 0 0 20px;
+}
+
+/* First part */
+
+.firstPart {
+    background-color: #1F2937;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.firstContainer {
+    color: #f9faf8;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstLeft {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.firstLeft > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.firstLeft > p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0.5rem 0;
+}
+
+.firstLeft > button {
+    background-color: #3882f6;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.firstRight {
+    width: 45%;
+    height: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
